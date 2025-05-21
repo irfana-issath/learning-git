@@ -1,0 +1,34 @@
+nav h4{
+    
+  display: inline;  
+}
+div{
+     display: inline; 
+}
+button{
+text-align: end;
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
+body{
+     color: #fff; 
+    background-color: rgb(16, 16, 70);
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+
