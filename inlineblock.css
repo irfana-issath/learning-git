@@ -1,0 +1,14 @@
+div{
+    background-color: pink;
+    color: #880ca7;
+    margin-bottom: 10px;
+}
+span{
+background-color: rgb(139, 238, 230);
+    color: #5a5e22;
+}
+p{
+    display: inline-block; 
+background-color: rgb(236, 19, 19);
+    color: #131312;
+}
