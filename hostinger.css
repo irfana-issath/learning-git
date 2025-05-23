@@ -1,35 +1,36 @@
-/* nav h4{
-    
-  display: inline;  
-} */
-/* div{
-     display: inline; 
-} */
-/* button{
-text-align: end;
-} */
-/* .logo{
-    width: 100px;
-    height: auto;
-} */
+
 body{
      color: #fff; 
-    background-color: rgb(16, 16, 70);
+    background-color: #101046;
 }
 .mainheader{
      width: 100%;
     height: 100px;
     display: flex;
+    padding: 23px;
 }
 header{
    justify-content: space-between;
-     display: inline;
+   display: flex;
+     /* display: inline; */
+}
+.container{
+    justify-content: space-between;
+   display: flex;
+   
+}
+.side{
+    justify-content: end;
+    display: flex;
+
+    width: 710px;
 }
 ul{
     display: flex;
     list-style: none;
     gap: 20px;
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
 }
 h1{
     font-size: 40px;
@@ -95,22 +96,23 @@ input{
 }
 
 button{
-    border: none;
+   border-color:#fff ;
+   background-color: #101046;
+color: #fff;
+border-radius: 6px;
+width: 80px;
+height: 50px;
+}
+#button{
+ border: none;
     height: 50px;
     width: 200px;
     border-radius: 7px;
-    background-color: #35489f;
-
-}
-/* .search{
-    background-color: #34127e;
-    color: #34127e;
-    padding: 35px;
+    background-color:#101046 ;
+    border: 0;
     display: flex;
-    width: 20px;
-    
-} */
-
+    justify-content: center;
+}
 .main{
 
    justify-content: center;
@@ -123,7 +125,10 @@ flex-wrap: wrap;
     background-color: #230a57;
     text-align: center;
 border-radius: 8px;
-padding: 20px;
+padding: 25px;
+width: 70px;
+height: 50px;
+
 }
 
 
