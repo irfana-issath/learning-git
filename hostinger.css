@@ -1,31 +1,40 @@
-nav h4{
+/* nav h4{
     
   display: inline;  
-}
-div{
+} */
+/* div{
      display: inline; 
-}
-button{
+} */
+/* button{
 text-align: end;
-}
-.logo{
+} */
+/* .logo{
     width: 100px;
     height: auto;
-}
+} */
 body{
      color: #fff; 
     background-color: rgb(16, 16, 70);
 }
-header{
-    width: 100%;
+.mainheader{
+     width: 100%;
     height: 100px;
-    color: #fff;
-    display: inline;
+    display: flex;
+}
+header{
+   justify-content: space-between;
+     display: inline;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
 }
 h1{
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     text-align: center;
 }
 p{
@@ -33,6 +42,74 @@ p{
     text-align: center;
 }
 
+.grandmom{
+    display: flex;
+    justify-content: center;
+}
+
+.mother{
+    display: flex;
+    background-color: #34127e;
+    justify-content: center;
+    border-radius: 44px;
+    width: 100%;
+    max-width: 450px;
+    padding: 8px;
+    
+}
+.domain{
+     
+    background-color: #ab96ec;
+border-radius: 44px;
+color: #230a57;
+width: 50%;
+display: block;
+justify-content: center;
+}
+.aidomain{
+    width: 50%;
+    display: flex;
+
+}
+.prio1{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+}
+input{
+    
+    display: flex;
+   
+    width: 600px;
+    height: 50px;
+    border: none;
+    outline: 0;
+    
+}
+.input{
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+     border-radius: 7px;
+     padding: 4px;
+}
+
+button{
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 7px;
+    background-color: #35489f;
+
+}
+/* .search{
+    background-color: #34127e;
+    color: #34127e;
+    padding: 35px;
+    display: flex;
+    width: 20px;
+    
+} */
 
 .main{
 
@@ -48,90 +125,5 @@ flex-wrap: wrap;
 border-radius: 8px;
 padding: 20px;
 }
-.domain{
-    border: 2px solid #967cf3; 
-    background-color: #ab96ec;
-border-radius: 44px;
-color: #230a57;
-width: 50%;
-
-display: block;
-justify-content: center;
-}
-.aidomain{
-     
-    width: 50%;
-    border-radius: 44px;
-}
-.mother{
-    display: flex;
-    background-color: #34127e;
-    justify-content: center;
-    border-radius: 44px;
-    width: 100%;
-    max-width: 450px;
-    padding: 8px;
-}
-.grandmom{
-    display: flex;
-    justify-content: center;
-}
-ul{
-    display: flex;
-    list-style: none;
-    gap: 20px;
-
-}
-.input{
-    background-color: aliceblue;
-    display: flex;
-    justify-content: center;
-    border-radius: 7px;
-    width: 650px;
-    height: 50px;
-}
-.search{
-    
-}
 
 
-/* .box1{
-    border: 2px solid #fff; 
-border-radius: 4px;
-padding: 20px;
-margin: 20px;
-}
-.box2{
-    
-border: 2px solid #fff; 
-border-radius: 4px;
-padding: 20px;
-margin: 20px;
-}
-.box3{
-   border: 2px solid #fff; 
-border-radius: 4px;
-
-padding: 20px;
-margin: 20px;
-}
-.box4{
-    border: 2px solid #fff; 
-border-radius: 4px;
-padding: 20px;
-margin: 20px;
-}
-.box5{
-    border: 2px solid #fff; 
-border-radius: 4px;
-
-padding: 20px;
-margin: 20px;
-}
-.box6{
-    
-border: 2px solid #fff; 
-border-radius: 4px;
-padding: 20px;
-margin: 20px;
-} */
