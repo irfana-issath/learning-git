@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    
+    height: 8px;
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.topdiv{
+    display: flex;
+    justify-content: space-between;
+    
+    height: 60px;
+    background-color: #fff;
+    align-items: center;
+    padding-inline: 20px;
+}
+.main{
+    background-image: url(https://thenamevishnu.github.io/volvo-cars/images/home-page-background.avif) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    color: #fff;
+}
+.main button{
+    background: transparent;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+
+}
+.main button:hover{
+    color: gray;
+
+}
+
+.main .text{
+    padding-top: 100px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+span{
+    color: gray;
+}
+.textmain{
+    padding: 60px;
+}
+.forallpic{
+    display: flex;
+
+}
+.bottompic{
+    display: flex;
+   
+}
+.leftpic{
+     width: 500px;
+    height: 300px;
+}
