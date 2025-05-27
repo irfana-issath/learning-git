@@ -130,7 +130,36 @@ display: flex;
 }
 
 h1{
+    display: flex;
+    justify-content: center;
     text-align: center;
+    padding-bottom: 40px;
     
+}
+
+.piccontainer{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+.s90{
+
+    display: flex;
+    width: 400px;
+    height: 400px;
+    
+}
+.xc60{
+    display: flex;
+    width: 400px;
+    height: 400px;
+
+}
+.piccontainer button{
+    text-align:center;
+    color: blue;
+    cursor: pointer;
+    padding-bottom: 40px;
 }
 
