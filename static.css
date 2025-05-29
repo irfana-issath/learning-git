@@ -29,6 +29,7 @@ ul{
     align-items: center;
     padding-inline: 20px;
     width: 100%;
+    z-index: 1;
 }
 .main{
     background-image: url(https://thenamevishnu.github.io/volvo-cars/images/home-page-background.avif) ;
@@ -72,10 +73,8 @@ span{
     display: flex;
    
 }
-/* .leftpic{ */
-     /* width: 500px; */
-    /* height: 300px; */
-/* } */
+
+
 .forallpic{
      display: flex;
     flex-direction: column;
@@ -103,63 +102,143 @@ span{
      height: 335px;
      width: 50%;  
 }
-.rechargebutton{
-    border: none ;
-    height: 50px;
-     width: 250px;
-    color: rgb(30, 30, 214);
-    border-radius: 6px;
-    display: flex;
-    padding: 10px;
-    position: absolute;
-    left: 600px;
-    top: 1650px;
-    cursor: pointer;
-    justify-content: center;
-    /* align-items: center; */
 
+.mbutton{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 55px;
 }
-.rechargebutton :hover{
-    background-color: blue;
+.mainbutton button{
+    border-radius: 6px;
+     height: 40px;
+     width: 250px;
+     align-content: center;
+     color: rgb(59, 115, 235);
+     border-color:  rgb(59, 115, 235);
+     cursor: pointer;
+     background-color: #fff;
+      border-width: 1px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      letter-spacing: 1px;
+     
+}
+.mainbutton :hover{
+    background-color: rgb(59, 115, 235);
     color: #fff;
 }
-.mainbutton{
-display: flex;
-    padding: 40px;
-    justify-content: center;
-}
-
-h1{
-    display: flex;
-    justify-content: center;
+.featured{
+    padding: 60px;
     text-align: center;
-    padding-bottom: 40px;
-    
 }
 
-.piccontainer{
+.maincontainer{
     display: flex;
-    justify-content: center;
-    background-color: red;
+    justify-content: space-between;
+    padding: 50px;
 }
 
-.s90{
+.s90 img{
 
     display: flex;
-    width: 400px;
+    width: 520px;
     height: 400px;
     
 }
-.xc60{
+.xc60 img{
     display: flex;
-    width: 400px;
+    width: 520px;
     height: 400px;
-
 }
-.piccontainer button{
+.buttons button{
     text-align:center;
     color: blue;
+    width: 200px;
+    height: 60px;
     cursor: pointer;
-    padding-bottom: 40px;
+    border: none;
+     padding: 15px;
+     background-color: #fff;
+     
+} 
+
+h1{
+    text-align: center;
 }
 
+.main1{
+    display: flex;
+    justify-content: center;
+}
+.m1,.m2{
+padding: 20px;
+}
+.pic img{
+display: flex;
+    width: 520px;
+    transition: 0.4s;
+}
+
+.but{
+    justify-content: center;
+    display: flex;
+}
+
+.bigpic{
+    justify-content: center;
+    display: flex;
+    padding: 40px;
+
+}
+
+.bigpic img{
+    width: 100%;
+    display: flex;
+    
+    height: 600px;
+}
+.divs{
+    display: flex;
+}
+div{
+    padding: 20px;
+}
+.bigpic2 img{
+    width: 100%;
+    height: 800px;
+    padding: 60px;
+}
+.bigpic2{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    position: relative;
+
+}
+.bigpic2 .text{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: #fff;
+    max-width: 400px;
+    z-index: 1;
+}
+.text button{
+    /* background-color: #fff; */
+    width: 110px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+h5{
+    text-align: center;
+    padding: 90px;
+}
+.comment{
+    position: fixed;
+    /* right:500px; */
+    text-align: end;
+    text-align: right;
+    
+}
