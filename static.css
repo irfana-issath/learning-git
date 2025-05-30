@@ -6,7 +6,6 @@
     
     height: 8px;
     display: flex;
-    padding: 10px;
     cursor: pointer;
     
 
@@ -18,17 +17,17 @@ ul{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
     padding: 0px;
-    padding-right: 40px;
+    
 }
 .topdiv{
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    position: sticky;
     height: 60px;
     background-color: #fff;
     align-items: center;
     padding-inline: 20px;
-    width: 100%;
+    left: 0;
     z-index: 1;
 }
 .main{
@@ -88,6 +87,7 @@ span{
 .bottompic{
      display: flex;
     gap: 6px;
+    
 }
 .allinone{
     display: flex;
@@ -97,15 +97,16 @@ span{
      height: 335px;
      width: 50%;
      overflow: hidden;
+     
 }
 .leftpic{
      height: 335px;
      width: 50%;  
 }
 
-.mbutton{
+.mainbutton{
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     padding: 55px;
 }
@@ -141,13 +142,13 @@ span{
 .s90 img{
 
     display: flex;
-    width: 520px;
+    width: 100%;
     height: 400px;
     
 }
 .xc60 img{
     display: flex;
-    width: 520px;
+    width: 100%;
     height: 400px;
 }
 .buttons button{
@@ -173,9 +174,22 @@ h1{
 .m1,.m2{
 padding: 20px;
 }
+.price button{
+    color:black;
+    background-color: #fff;
+    border: none;
+    text-align: start;
+    cursor: pointer;
+}
+.price button:hover{
+    color: blue;
+}
+.main1 img:hover{
+    scale: 1.15;
+}
 .pic img{
 display: flex;
-    width: 520px;
+    width: 100%;
     transition: 0.4s;
 }
 
@@ -193,9 +207,16 @@ display: flex;
 
 .bigpic img{
     width: 100%;
-    display: flex;
     
-    height: 600px;
+    
+}
+.text button{
+    /* background-color: #fff; */
+  
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
 }
 .divs{
     display: flex;
@@ -203,18 +224,13 @@ display: flex;
 div{
     padding: 20px;
 }
-.bigpic2 img{
-    width: 100%;
-    height: 800px;
-    padding: 60px;
-}
-.bigpic2{
-    justify-content: center;
-    display: flex;
-    width: 100%;
-    position: relative;
 
+.bigpic2{
+display: flex;
+justify-content: center;
+position: relative;
 }
+
 .bigpic2 .text{
     position: absolute;
     top: 20%;
@@ -223,22 +239,70 @@ div{
     max-width: 400px;
     z-index: 1;
 }
-.text button{
-    /* background-color: #fff; */
-    width: 110px;
-    height: 40px;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-}
 h5{
     text-align: center;
-    padding: 90px;
+    padding: 60px;
+    color: gray;
 }
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    gap: 15pc;
+     color: rgb(59, 115, 235);
+
+}
+.bottomtexts1,.bottomtexts2{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(59, 115, 235);
+     max-width: 100%;
+     height: 50%;
+     border-bottom: solid 1px;
+     align-items: center;
+
+    
+}
+.mainbottomtexts{
+   
+  display: flex;
+    justify-content: center;
+}
+.bottomtexts1{
+    border-block-width: 1px ;
+    border-block-color: rgb(59, 115, 235);
+    border-top: solid 1px; 
+     display: flex;
+       
+}
+.mbottomtexts{
+    max-width: 600px;
+    width: 100%;
+    height: 10px;
+    
+}
+.lefttop , .righttop , .leftdown , .rightdown {
+    width: 100%;
+    height: 100%;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.chevron{
+    
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+}
+
 .comment{
+    
     position: fixed;
-    /* right:500px; */
-    text-align: end;
-    text-align: right;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+   
     
 }
