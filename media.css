@@ -1,0 +1,62 @@
+header .logo{
+   
+    height: 100px;
+    
+}
+
+header .logo img{
+    height: 80px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+   
+}
+.menu{
+    padding: 20px;
+}
+header .menu .signup{
+    height: 30px;
+    width: 80px;
+    border: transparent;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    color:red;
+}
+header .menu .login{
+    height: 30px;
+    width: 80px;
+    border: transparent;
+    background-color: rgb(153, 171, 255);
+    border-radius: 5px;
+    color:red;
+}
+.cursorpointer{
+    cursor: pointer;
+}
+header .menu{
+    display: none;
+}
+
+section{
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+}
+
+@media screen and (min-width:576px){
+header .menu{
+        display: block;}
+header .bars{
+    display: none;
+}
+section{
+    flex-direction: row;
+}
+
+
+}
+
+
+

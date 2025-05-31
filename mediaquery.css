@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+body{
+    
+    background-color: aquamarine;
+}
+@media screen and (min-width:576px) {
+    body{
+        background-color: rgb(255, 175, 195);
+    }
+}
+
+@media screen and (min-width:768px) {
+    body{
+        background-color: rgb(122, 86, 207);
+    }
+}
+
+@media screen and (min-width:992px) {
+    body{
+        background-color: rgb(72, 173, 13);
+    }
+}
+
+@media screen and (min-width:1200px) {
+    body{
+        background-color: rgb(197, 24, 24);
+    }
+}
+
+@media screen and (min-width:1400px) {
+    body{
+        background-color: rgb(243, 108, 55);
+    }
+}
+
+
+
