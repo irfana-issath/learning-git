@@ -30,6 +30,23 @@ ul{
     left: 0;
     z-index: 1;
 }
+.topdiv li{
+display: none;
+}
+.bars{
+    cursor: pointer;
+}
+@media screen and (min-width:576px){
+    .topdiv li{
+        display: block;
+    }
+    .topdiv .bars{
+display: none;
+    }
+    section{
+        flex-direction: row;
+    }
+}
 .main{
     background-image: url(https://thenamevishnu.github.io/volvo-cars/images/home-page-background.avif) ;
     background-repeat: no-repeat;
@@ -132,6 +149,30 @@ span{
     padding: 60px;
     text-align: center;
 }
+.animation{
+    position: relative;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes move{
+    from{
+        left: 0;
+    }
+    to{
+        left: 500px;
+    }
+}
+.featured h1{
+    position: relative;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
 
 .maincontainer{
     display: flex;
