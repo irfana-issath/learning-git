@@ -1,0 +1,31 @@
+.right{
+    height: 100px;
+    background: linear-gradient(to right, aqua,red,#3cff00,#d9ff00);
+    
+}
+
+.left{
+    height: 100px;
+    background: linear-gradient(to left, aqua,red,#3cff00,#d9ff00);
+}
+
+.top{
+    height: 100px;
+    background: linear-gradient(to top, aqua,red,#3cff00,#d9ff00);
+}
+
+.bottom{
+    height: 100px;
+    background: linear-gradient(to bottom, aqua,red,#3cff00,#d9ff00);
+}
+
+.left-bottom{
+    height: 100px;
+    background: linear-gradient(to left bottom, aqua,red,#3cff00,#d9ff00);
+}
+
+.right-bottom{
+    height: 100px;
+    background: linear-gradient(to right bottom, aqua,red,#3cff00,#d9ff00);
+}
+
