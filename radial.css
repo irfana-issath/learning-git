@@ -1,0 +1,6 @@
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background: linear-gradient(aqua,red,#3cff00,#d9ff00);
+}
