@@ -19,6 +19,7 @@ ul{
     padding: 0px;
     
 }
+
 .topdiv{
     display: flex;
     justify-content: space-between;
@@ -36,6 +37,17 @@ display: none;
 .bars{
     cursor: pointer;
 }
+.maincontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    flex-direction: column;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 @media screen and (min-width:576px){
     .topdiv li{
         display: block;
@@ -43,7 +55,10 @@ display: none;
     .topdiv .bars{
 display: none;
     }
-    section{
+    .maincontainer{
+        flex-direction: row;
+    }
+    .main1{
         flex-direction: row;
     }
 }
@@ -165,6 +180,9 @@ span{
         left: 500px;
     }
 }
+.overflow{
+    overflow: hidden;
+}
 .featured h1{
     position: relative;
     animation-name: move;
@@ -172,13 +190,12 @@ span{
     animation-iteration-count: infinite;
     animation-timing-function: ease;
 }
-
-
-.maincontainer{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
+.featured{
+    overflow: hidden;
 }
+
+
+
 
 .s90 img{
 
@@ -208,10 +225,7 @@ h1{
     text-align: center;
 }
 
-.main1{
-    display: flex;
-    justify-content: center;
-}
+
 .m1,.m2{
 padding: 20px;
 }
