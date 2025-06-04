@@ -27,9 +27,10 @@ header ul{
  }
  .main{
     width: 100;
-    height: 1100px;
+    height: 700px;
     background: linear-gradient(to left bottom, blue, #069eda);
     display: flex;
+    justify-content: space-between;
  }
 .white{
     color: white;
@@ -51,6 +52,7 @@ header ul{
  .left-part{
     width: 30%;
      margin-left: 20px;
+     margin-top: 20px;
 }
  
  .get-started{
@@ -64,5 +66,61 @@ header ul{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
  }
+ .section2{
+    background-color: #ffff;
+    width: 100%;
+    height: 900px;
+    border-radius: 20px;
+    margin-top: -20px;
+    color: black;
+ }
+ .section2 h4, h1,p{
+display: flex;
+justify-content: center;
+ }
+  .section2 h1{
+    font-size: 45px;
+    font-family:  "Archivo Black", sans-serif;
+ }
+ .host-main ul{
+    list-style: none;
+   display: block;
+ }
+ .host-main li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .xx-strong{
+    font-size: 50px;
+    font-family:  fantasy;
+    color: #2332be;
+ }
+ .highlight-heading{
+    color: #2332be;
+ }
+ .host-right-pic-li{
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(176, 228, 231);
+    width: 850px;
+   
+ }
 
+ .host-pic img{
+    border-top-left-radius: 20px;
+    border-end-start-radius:20px ;
+    height: 450px;
+ }
+ .five-stars{
+    background-color: #33ca8b;
+    color: white;
     
+ }
+ .one-star{
+    color: #33ca8b;
+ }
+ .host-main{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ 
