@@ -122,5 +122,11 @@ justify-content: center;
     display: flex;
     justify-content: space-evenly;
  }
-
+.section3{
+   display: flex;
+   justify-content: space-around;
+}
+.section3-text{
+   
+}
  
