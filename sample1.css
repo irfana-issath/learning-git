@@ -5,9 +5,12 @@ div{
     background-color: rgb(139, 238, 230);
     color: #5a5e22;
     display: inline-block;
+    /* text-align: center; */
 }
 #div2{
     background-color: rgb(192, 241, 13);
     color: #5a5e22;
     display: inline-block;
+    text-align: center;
+    text-decoration: underline;
 }
