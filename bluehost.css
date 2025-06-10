@@ -74,9 +74,12 @@ header ul{
     margin-top: -20px;
     color: black;
  }
- .section2 h4, h1,p{
+ .section2 h4, h1 {
 display: flex;
 justify-content: center;
+ }
+ .center-p{
+   text-align: center;
  }
   .section2 h1{
     font-size: 45px;
@@ -145,15 +148,58 @@ justify-content: center;
     border: blue;
     color: #ffff;
     font-size: larger;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
-h4{
+.center-h4{
    text-align: center;
 }
-h1{
+.larg-fond{
    font-size: 50px;
 }
 .commen-fond{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
- 
+.section4{
+   display: flex;
+   justify-content: center;
+  
+}
+.beginner-professional{
+   /* background-color: green; */
+   display: flex;
+   justify-content: center;
+  
+    width:900px;
+   height: 400px;
+}
+
+.beginner-pic img{
+   border-top-left-radius: 20px;
+   border-end-start-radius:20px ;
+   width: 428px;
+}
+.beginner-right-side{
+   background-color: #111047;
+   color: #fff;
+   padding: 20px;
+   width: 600px;
+   height: 260px;
+   /* border-top-right-radius: 20px; */
+   border-end-end-radius: 20px;
+   border-top-right-radius: 20px;
+
+}
+.beginner-container{
+   text-align: center;
+}
+
+.fond-medium{
+   font-size: 45px;
+}
+.color-blue{
+   color: #069eda;
+}
+ .section5{
+   display: flex;
+   justify-content: center;
+ }
