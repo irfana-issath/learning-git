@@ -141,6 +141,7 @@ justify-content: center;
 }
 .section3-text{
    padding-top: 80px;
+   padding-left: 30px;
    height: 400px;
    text-align: bottom;
 }
@@ -324,5 +325,28 @@ justify-content: center;
    height: 350px;
    background-color: #4996b4;
    display: flex;
+   justify-content: space-around;
  }
+ footer, li{
+   list-style: none;
+ }
+ .f-box1{
+   width: 300px;
+   padding-left: 2px;
+   padding-top: 30px;
+ }
+ .cookie-green{
+   background-color: #3e7a3e;
+ }
+
+  .f-box2,.f-box3,.f-box4,.f-box5{
+   padding-top: 30px;
+ }
+ footer li:hover{
+   cursor: pointer;
+   text-decoration: underline;
+   
+ }
+ 
+ 
  
