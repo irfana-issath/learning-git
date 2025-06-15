@@ -1,7 +1,7 @@
 header{
     width: 100%;
-    /* height: 150px; */
-    background-color: #474786ec;
+    height: 100px;
+    background-color: #3b5998;
     display: flex;
     justify-content: space-between;
 }
@@ -28,9 +28,10 @@ header{
     width: 382px;
     margin-bottom: 15px;
 }
-.right-part{
+.main{
     display: flex;
     justify-content: space-between;
+    background: linear-gradient(to bottom, white, #D3D8E8);
 }
 .fb-connect-pic{
     width: 50%;
@@ -44,4 +45,7 @@ header{
     background-color: green;
     border-radius: 5px;
     width: 160px;
+}
+.fb-logo{
+    margin-left: 200px;
 }
