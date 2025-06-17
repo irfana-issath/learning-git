@@ -1,13 +1,93 @@
 .container{
-    display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows:  auto auto  ;
     /* column-gap: 2px;
     row-gap: 2px; */
     gap: 2px;
-    grid-template-rows: min-content;
+    display: block;
+    
 }
 .sec{
+    padding: 20px;
+    text-align: center;
+   
+}
+.sec1{
+   background-color: aqua;
+    color: #4b2bd8; 
+}
+.sec2{
+   background-color: #00ff62;
+    color: #f00b90;
+}
+.sec3{
+   background-color: #f5cc14;
+    color: #1c8845;
+}
+.sec4{
+  background-color: pink;
+    color: #d85c2b;
+}
+.sec5{
+   background-color: #d889f7;
+    color: white;
+}
+
+
+
+/* .sec{
+    padding: 20px;
+    text-align: center;
+   
+}
+.sec1{
+    background-color: aqua;
+    color: #4b2bd8;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.sec2{
+    background-color: #00ff62;
+    color: #f00b90;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    
+}
+.sec3{
+    background-color: #f5cc14;
+    color: #1c8845;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
+.sec4{
+    background-color: pink;
+    color: #d85c2b;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.sec5{
+    background-color: #d889f7;
+    color: white;
+    grid-column-start:2 ;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+} */
+@media (min-width:992px) {
+    .container{
+        display: grid;
+        grid-template-rows: min-content;
+    }
+    .sec{
     padding: 20px;
     text-align: center;
    
@@ -54,25 +134,5 @@
     grid-row-start: 4;
     grid-row-end: 5;
 }
-/* .sec6{
-    background-color: #afe716;
-    color: rgb(136, 20, 20);
-    grid-column-start: ;
-    grid-column-end: ;
-    grid-row-start: ;
-    grid-row-end: ;
+    
 }
-/* .sec7{ */
-    /* background-color: #89f7b7;
-    color: rgb(60, 116, 7);
-}
-.sec8{
-    background-color: #b3c2b8;
-    color: rgb(37, 28, 29);
-}
-.sec9{ */
-    /* background-color: #9adfb5;
-    color: #fff; 
-}   
-    */
-
