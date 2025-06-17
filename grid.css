@@ -5,6 +5,7 @@
     /* column-gap: 2px;
     row-gap: 2px; */
     gap: 2px;
+    grid-template-rows: min-content;
 }
 .sec{
     padding: 20px;
@@ -26,7 +27,7 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 5;
-    grid-template-rows: min-content;
+    
 }
 .sec3{
     background-color: #f5cc14;
@@ -35,7 +36,6 @@
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 4;
-    height: 250px;
     
 }
 .sec4{
