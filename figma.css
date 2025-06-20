@@ -1,3 +1,9 @@
 /* header li{
     list-style: none;
 } */
+ .container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+
+ }
