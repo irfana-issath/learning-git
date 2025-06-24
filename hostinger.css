@@ -1,5 +1,5 @@
 
-body{
+.sec1{
      color: #fff; 
     background-color: #101046;
 }
@@ -8,8 +8,11 @@ body{
     height: 100px;
     display: flex;
     padding: 23px;
-     
+    color: #fff; 
+    background-color: #101046;
 }
+     
+
 header{
    justify-content: space-between;
    display: flex;

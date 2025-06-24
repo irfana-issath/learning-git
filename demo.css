@@ -24,6 +24,9 @@ span{
 }
 .section2{
     flex-direction: column;
+    display: fle;
+    justify-content: center;
+
 }
 
 
