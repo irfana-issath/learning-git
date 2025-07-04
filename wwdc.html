@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./wwdc.css">
+  </head>
+<body>
+
+
+    
+      
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <div class="container-fluid container-md ">
+                <div class="wwdc-icon ms-0 " >
+                    <img src="data:image/png;base64,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" alt="" >
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-"><i class="fa-solid fa-chevron-down"></i></span>
+                </button>
+                   
+                <div class="collapse navbar-collapse d-flex justify-content-end me-5" id="navbarToggler">
+
+                        <ul class="navbar-nav  mb-2 mb-lg-0 d-none">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="#">Overview</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sessions & Labs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Guides</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Community</a>
+                            </li>
+                        </ul>
+                        
+                </div>
+            </div>
+        </nav>
+           <!-- header finished -->
+
+        <!-- section-1 -->
+            
+            <div class="d-flex justify-content-center align-items-center">
+               <img class="mt-5 p-4 p-md-0" src="https://developer.apple.com/wwdc25/images/today/wwdc25-hero-w-today_2x.jpg"alt="" width="680px" height="220px" >
+            </div> 
+            <h2 class="text-center p-3">June 9-13, 2025</h2>
+        
+        <!-- section-1 -->
+
+        <!-- section-2 -->
+
+    <section class="d-flex justify-content-center mt-5 mb-5">
+        <div class="card mb-3 border-0 rounded-4" style="max-width: 74%; height: auto;">
+            <div class="row g-0">
+                <div class="col-md-5 p-4">
+                    <div class="card-body">
+                        <h3 class="card-title mb-4">Today @ WWDC</h5>
+                        <p class="card-text mb-4">It's the final day of WWDC25. Revisit the week's highlights, and dive into group <br> labs on live streaming, immersive video, <br> and spatial audio.</p>
+                        <a class="text-decoration-none" href="https://developer.apple.com/wwdc25/guides/day5/">Read about day 5 <i class="fa-solid fa-chevron-right"></i></a><br>
+                        <a class="text-decoration-none" href="https://music.apple.com/us/playlist/wwdc25-jazz/pl.e672f5654e52433aa995643b4b882a01">Listen to the Jazz playlist <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                    <div class="col-md-7">
+                        <img class="bd-placeholder-img img-fluid rounded-end" src="https://developer.apple.com/wwdc25/images/today/today-day5_2x.jpg" class="img-fluid rounded-start" alt="" style="width:100%; height: 100%;">
+                    </div>
+            </div>
+    </div>
+    </section>
+
+
+        <!-- section-2 -->
+
+
+        <!-- section-3 -->
+
+        <section class="d-flex justify-content-center">
+            <div class="card mb-3 border-0 p-2 rounded-4" style="width: 74%;">
+                <div class="col-12">
+                    <div class="card-body">
+                        <h2 class="card-title p-4 ps-0">Featured labs</h2>
+                        <p class="card-text pb-5">No upcoming labs available at this time.</p>
+                        <h1><svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
+                            <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/></svg>
+                        </h1>
+                        <h4>One-on-one labs</h4>
+                        <p class="card-text ">Set up online appointments with Apple experts for guidance on the topics that interest you most.</p>
+                        <a class="text-decoration-none" href="#">See upcoming labs and register <i class="fa-solid fa-chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section-3 -->
+        
+             
+            <!-- section-4 -->
+            <!-- <section>
+                <h2>Featured videos</h2>
+                <div class="container text-center">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+                        <div class="col">
+                            <video src="https://developer.apple.com/wwdc25/"></video>
+                        </div>
+                        <div class="col">
+                            <video src=""></video>
+                        </div>
+                        <div class="col">
+                            <video src=""></video>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section> -->
+            <!-- section-4 -->
+
+
+            <!-- section-5 -->
+             <section class="container-fluid d-flex justify-content-center" >
+                <div class="bg-white rounded-4" >
+                    <h2 class="ms-5 mt-5">Guides, documentation, and sample code</h2>
+                    <div class="container-fluid text-center d-flex justify-content-center">
+                        <div class="row row-cols-auto pt-4 pb-5">
+                            <div class="guides col text-start body-background ms-4 mb-4 mb-lg-0 me-5 p-5 rounded-2" > 
+                                                                                                                         <!-- style="width: 91%;" -->
+                                <h2><i class="fa-solid fa-photo-film"></i></h2>
+                                <h2 class="pb-3">Guides</h2>
+                                <p >Find out what’s new across <br> Apple platforms and technologies.</p>
+                                <a class="text-decoration-none " href="#">View guides <i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+                            <div class="guides col text-start body-background mb-4 mb-lg-0 ms-4 ms-lg-0 me-5 p-4 rounded-2" >
+                                <h2><i class="fa-regular fa-file-lines"></i></h2>
+                                <h2 class="pb-3">Documentation</h2>
+                                <p>Browse documentation for the <br> new technologies introduced at WWDC25.</p>
+                                <a class="text-decoration-none" href="#">View documentation <i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+                            <div class="guides col text-start body-background ms-4 ms-lg-0 p-5 me-4 rounded-2" >
+                                <h2><i class="fa-solid fa-brackets-curly"></i></h2>
+                                <h2 class="pb-3">Sample code</h2>
+                                <p>Explore the samples showcased <br> in this year’s sessions.</p>
+                                <a class="text-decoration-none" href="#">View sample code <i class="fa-solid fa-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </section>
+            <!-- section-5 -->
+
+
+            <!-- section-6 -->
+            <!-- <section> -->
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+            <!-- </section> -->
+
+            <!-- section-6 -->
+
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+<!-- <header>
+      
+
+    
+   
+
+    <section class="d-flex justify-content-center">
+        <div class="bg-white p-4" style="width: 1100px;">
+           
+            
+            
+           
+            
+        </div>
+        </section> -->

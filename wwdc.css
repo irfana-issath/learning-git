@@ -1,0 +1,27 @@
+.first-img{
+height: 220px;
+
+}
+body{
+    background-color:#f5f5f7;
+
+}
+
+.wwdc-icon{
+    margin-left: 170px;
+}
+
+.wwdc-icon img{
+    width: 110px;
+    
+}
+.body-background{
+    background-color:#f5f5f7;
+}
+
+/* @media (min-width:576px) {
+    .guides{
+        width: 40%;
+
+    }
+} */
