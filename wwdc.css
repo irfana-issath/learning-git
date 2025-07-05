@@ -24,9 +24,7 @@ body{
     cursor: pointer;
 }
 
-/* @media (min-width:576px) {
-    .guides{
-        width: 40%;
-
-    }
-} */
+.a-line{
+    margin-left: 18%;
+    margin-right: 18%;
+}
