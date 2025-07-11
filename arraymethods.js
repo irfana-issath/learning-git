@@ -103,9 +103,9 @@
 
 
 
+             //     first task
 
-
-// --------------------1------------------------
+// --------------------1--------------------------------------------
 
 // const arr=[1,2,3,4,5,6,7,8,9,10];
 
@@ -235,8 +235,244 @@
 
 // -------------------------13--------------------------------------------
 
-const stingarray=["raju baby","radha kutti","beem kuttan","bolu sweety","gudiya","chidiya","chotu vava","chamki","motu","patlu"];
+// const stingarray=["raju baby","radha kutti","beem kuttan","bolu sweety","gudiya","chidiya","chotu vava","chamki","motu","patlu"];
 
-const removedChar= stingarray.filter((element)=>{
-    return element["r"].
+// const removedChar= stingarray.filter((element)=>{
+//    return !element.includes("r")
+// })
+
+// console.log(removedChar)
+// ---------------------------------------------------------------------------------
+
+// ------------------------14--------------------------------------------
+
+// const stingarray=["raju baby","radha kutti","beem kuttan","bolu sweety","gudiya","chidiya","chotu vava","chamki","motu","patlu"];
+
+// const replaceByLength= stingarray.map((element)=>{
+//         return element.length
+// })
+
+// console.log(replaceByLength)
+// ---------------------------------------------------------------------------------
+
+                //    secont task  
+
+const employees = [
+    { name: "Alice", age: 30, salary: 70000, department: "Engineering" },
+    { name: "Bob", age: 45, salary: 80000, department: "Marketing" },
+    { name: "Charlie", age: 35, salary: 65000, department: "Engineering" },
+    { name: "David", age: 50, salary: 90000, department: "Management" },
+    { name: "Eve", age: 28, salary: 50000, department: "Marketing" },
+    { name: "Frank", age: 40, salary: 75000, department: "Finance" },
+    { name: "Grace", age: 32, salary: 62000, department: "Engineering" },
+    { name: "Hannah", age: 27, salary: 55000, department: "Marketing" },
+    { name: "Isaac", age: 38, salary: 68000, department: "HR" },
+    { name: "Jack", age: 42, salary: 72000, department: "Finance" },
+    { name: "Kara", age: 29, salary: 54000, department: "Engineering" },
+    { name: "Leo", age: 33, salary: 58000, department: "HR" },
+    { name: "Mona", age: 47, salary: 82000, department: "Marketing" },
+    { name: "Nina", age: 31, salary: 69000, department: "Finance" },
+    { name: "Oliver", age: 36, salary: 73000, department: "Management" }
+];
+
+// ---------------------1------------------------------------------------------
+
+// const namesUpercase= employees.map((emp)=>{
+//        return emp.name.toUpperCase()
+// })
+// console.log(namesUpercase)
+// ----------------------------------------------------------------------------
+
+// ---------------------2------------------------------------------------------------
+
+// const earnMoreThan=employees.filter((emp)=>{
+//      return emp.salary>60000
+// })
+
+// console.log(earnMoreThan)
+// ------------------------------------------------------------------
+
+// ----------------------3------------------------------------------
+
+// const totalSalary=employees.reduce((total,emp)=>{
+//     return total+emp.salary
+// },0)
+ 
+// console.log(totalSalary)
+// ---------------------------------------------------------------------
+
+// -----------------------4----------------------------------------------
+
+// const marketingdep=employees.filter((emp)=>{
+//     return emp.department=="Marketing"
+// })
+// console.log(marketingdep)
+
+// const averageOfSalary=marketingdep.reduce((total,emp)=>{
+//     return total+emp.salary
+// },0)
+ 
+// console.log(averageOfSalary/marketingdep.length)
+// ------------------------------------------------------------------------
+
+// -----------------------5----------------------------------------------
+
+// const employeesNames= employees.map((emp)=>{
+//        return emp.name
+// })
+// console.log(employeesNames)
+// ------------------------------------------------------------------------
+
+// ------------------------6------------------------------------------------
+
+// const increase5Yr=employees.map((emp)=>{
+//         return emp.age + 5
+// })
+// console.log(increase5Yr)
+// -------------------------------------------------------------------
+
+// ------------------------7--------------------------------------------
+
+// const departmentAndSalary=employees.map((emp)=>{
+//       return {department:emp.department, salary:emp.salary}
+// })
+// console.log(departmentAndSalary)
+// --------------------------------------------------------------------
+
+// -------------------------8-------------------------------------------
+
+// const olderThan35= employees.filter((emp)=>{
+//     return emp.age>35
+// })
+// console.log(olderThan35)
+// ----------------------------------------------------------------------
+
+// ------------------------9---------------------------------------------
+
+// const engineers= employees.filter((emp)=>{
+//        return emp.department=="Engineering"
+// })
+// console.log(engineers)
+// -----------------------------------------------------------------------
+
+// ------------------------11----------------------------------------------
+
+// const  totalEmployees= employees.reduce((emp)=>{
+//     return emp+1
+// },0)
+// console.log(totalEmployees)
+// -------------------------------------------------------------------------
+
+// -------------------------12-----------------------------------------------
+
+// const earnMoreThan=employees.filter((emp)=>{
+//      return emp.salary>70000
+// })
+// console.log(earnMoreThan)
+
+// const namesOnly=earnMoreThan.map((emp)=>{
+//     return emp.name
+// })
+// console.log(namesOnly)
+// --------------------------------------------------------------------------
+
+// ------------------------13-----------------------------------------
+
+// const youngerThan30= employees.filter((emp)=>{
+//      return emp.age<30
+// })
+// console.log(youngerThan30)
+
+// const nameDepartment=youngerThan30.map((emp)=>{
+//     return {name:emp.name,department:emp.department}
+// })
+// console.log(nameDepartment)
+// ---------------------------------------------------------
+
+// --------------------14-----------------------------------
+
+// const financeDep=employees.filter((emp)=>{
+//     return emp.department=="Finance"
+// })
+// console.log(financeDep)
+
+// const salaryOfFin=financeDep.reduce((total,emp)=>{
+//     return total+emp.salary
+// },0)
+// console.log(salaryOfFin)
+// ------------------------------------------------------------------------
+
+// ----------------------15------------------------------------------------
+
+// const engineers= employees.filter((emp)=>{
+//        return emp.department=="Engineering"
+// })
+// console.log(engineers)
+
+// const sumOfAge=engineers.reduce((totalage,emp)=>{
+//     return totalage+emp.age
+// },0)
+// console.log(sumOfAge/engineers.length)
+// ------------------------------------------------------------------------
+
+// ---------------------16------------------------------------------------
+
+// const marketingHr= employees.filter((emp)=>{
+//        return emp.department=="Marketing" || emp.department=="HR"
+// })
+// console.log(marketingHr)
+
+// const namesOnly= marketingHr.map((emp)=>{
+//        return emp.name
+// })
+// console.log(namesOnly)
+// ---------------------------------------------------------------------------------
+
+// ----------------------17-------------------------------------------------------
+// not finished
+// const withOutManagement= employees.filter((emp)=>{
+//        return !emp.includes("Management")
+// })
+// console.log(withOutManagement)
+// ---------------------------------------------------------------------------------
+
+// ------------------------18-------------------------------------------------------------
+
+// const sumOfAge=employees.reduce((totalage,emp)=>{
+//     return totalage+emp.age
+// },0)
+// console.log(sumOfAge)
+// ---------------------------------------------------------------------------------------------
+
+// --------------------------19---------------------------------------------------------------------
+
+// const salaryBetween=employees.filter((emp)=>{
+//     return emp.salary>60000 && emp.salary<80000
+// })
+// console.log(salaryBetween)
+
+// const namesOnly= salaryBetween.map((emp)=>{
+//        return emp.name
+// })
+// console.log(namesOnly)
+// -------------------------------------------------------------------------------
+
+// --------------------------20-----------------------------------------------------
+
+const marketingdep=employees.filter((emp)=>{
+    return emp.department=="Marketing"
 })
+console.log(marketingdep)
+
+const averageOfSalary=marketingdep.reduce((total,emp)=>{
+    return total+emp.salary
+},0)
+ 
+console.log(averageOfSalary/marketingdep.length)
+
+const moreThanAverage=averageOfSalary/marketingdep.length
+
+const averageThan=employees.filter((emp)=>{
+    return emp.salary>moreThanAverage
+})
+console.log(averageThan)

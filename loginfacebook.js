@@ -17,7 +17,7 @@ function handleSubmit(){
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
 const passwordRegex = /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\S+$).{8,20}$/
 
-if(email !=""){
+if(email ==""){
    error[0].innerHTML= "The email address or mobile number you entered isn't connected to an account. Find your account and log in."
    return false;
 }
