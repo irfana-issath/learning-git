@@ -145,22 +145,37 @@
 // -------------------------------------------------------------------
 
 // ---------------------6-----------------------------------------
-            const createCalculator=()=>{
-                 const add=(num)=>{
-                  let res=10+num
-                  return res
-                 }
-                 const subtract=(num)=>{
-                    totalRes=res
-                   let result=totalRes-num
-                    return result
-                 }
-                 calc=
-            }
+        //     const createCalculator=()=>{
+        //         let res
+        //          const add=(num)=>{
+        //           res=10+num
+        //           return res
+        //          }
+        //          const subtract=(num)=>{
+        //              totalRes=res
+        //            let result=totalRes-num
+        //             return result
+        //          }
+        //          return {add,subtract}
+        //     }
+        //     const calc=createCalculator()
+        //  console.log(calc.add(5))
+        //  console.log(calc.subtract(3))
+
 // -------------------------------------------------------------------
 
 // ---------------------7-----------------------------------------
+            const createList=()=>{
+                const add=()=>{
 
+                }
+                const getItems=()=>{
+
+                }
+                return {add,getItems}
+            }
+
+            
 // -------------------------------------------------------------------
 
 // ---------------------8-----------------------------------------
