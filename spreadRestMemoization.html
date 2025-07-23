@@ -135,64 +135,88 @@
 
 //     Set Questions
 // 1.  Write a function to remove duplicates from an array using Set
-      
+  console.log("-----------------1----------------------------")
     const array=[10,200,30,10,60,200,70,10]
 
-    const removeDuplicates=()=>{
-        set= new Set(array)
+    const removeDuplicates=(somthing)=>{
+        set= new Set(somthing)
     return set;
 
       }
 
-    console.log(removeDuplicates())
+    console.log(removeDuplicates(array))
 
         
       const array1=Array.from(set)
       console.log(array1)
 
 
-      console.log("------------------------------------------------")
 
 
 // 2.  Create a function that finds the intersection of two arrays using Set
-        
+  console.log("----------2----------------------------------")
 
+  const arr4=[5,15,25,35,45]
+  const arr5=[5,10,15,20,25]
+
+  const findIntersection=(ar1,ar2)=>{
+    set1= new Set(ar1)
+    set2= new Set(ar2)
+    
+    return 
+
+    
+  }
+
+  console.log(findIntersection())
+        
 // Memoization Questions
 // 1.  Implement a memoized fibonacci sequence calculator
-// 2.  Create a memoized function for calculating factorial
-// 3.  Write a function that implements caching for API calls
-// 4.  You’re building a small app that fetches todo data from the API https://jsonplaceholder.typicode.com/todos/{id}. 
-//     To optimize performance, you need to implement memoization so that repeated requests for the same todo id do not trigger a new network call.
+console.log("-------------1-------------------------------")
 
+// 2.  Create a memoized function for calculating factorial
+console.log( "---------------2-----------------------------")
+
+// 3.  Write a function that implements caching for API calls
+console.log("----------------3----------------------------")
+
+// 4.  You’re building a small app that fetches todo data from the API https://jsonplaceholder.typicode.com/todos/{id}. 
+console.log("-----------------4---------------------------")
+  
+//     To optimize performance, you need to implement memoization so that repeated requests for the same todo id do not trigger a new network call.
 // Spread Operator Questions
 // 1.  Write a function that merges multiple arrays using spread
+console.log("------------------1--------------------------")
+
     const arr=[20,46,18,90,56]
     const arr1=[100,300,500,700]
 
     const mergesArray=(a1,a2)=>{
-      const arr2=[...arr,...arr1]
+      const arr2=[...a1,...a2]
       return arr2
       }
       console.log(mergesArray(arr,arr1))
 
 
 
-    console.log("------------------------------------------------")
 // 2.  Create a function that clones and modifies objects using spread
+    console.log("------------------2--------------------------")
+
          const obj={
             name: "zaad",
             age: 7,
             school: "peace calicut"
          }
-        const clonesModify=()=>{
-           const object={...obj}
+        const clonesModify=(obje)=>{
+           const object={...obje}
            object.name="Muhammed Zaad"
            return object
         }
         console.log(clonesModify(obj))
-console.log("------------------------------------------------")
 
 // 3.  Implement a function that combines multiple objects with spread
+console.log("--------------------3-------------------------")
+
         const obj1={
             student1: "Ala",
             age1: 5,
@@ -212,11 +236,15 @@ console.log("------------------------------------------------")
 
         console.log(multipleObjects(obj1,obj2))
 
-
 // Rest Parameter Questions - (Do Your Own Reaserch to find what is Rest Parameter)
 // 1.  Write a function that accepts unlimited arguments and sums them
+console.log("---------------------1----------------------")
+
 // 2.  Create a function that groups rest parameters by type
+console.log("----------------------2---------------------")
+
 // 3.  Implement a function logger that uses rest parameters
+console.log("----------------------3--------------------")
 
 
      
