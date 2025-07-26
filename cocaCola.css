@@ -1,0 +1,9 @@
+.super30{
+   position: relative;
+   right:60px;
+}
+
+.img-border{
+    border:solid white 20px;
+    border-radius: 10px;
+}
