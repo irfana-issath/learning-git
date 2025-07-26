@@ -17,3 +17,40 @@
 // })
 // console.log(newArr)
 
+// const forChange = () => {
+//     document.getElementById("change").innerHTML = "Welcome to wezlonHub";
+// }
+
+// callba
+
+// const display = () => {
+//     console.log("Welcome izza");
+// }
+
+// const anotherFun = (callback) => {
+//    callback()
+    
+// }
+
+// anotherFun(display)
+
+
+// const sumOfNNums=(num,callback)=>{
+//     let sum=0
+//     for(let i=1;i<=num;i++){
+//         sum+=i
+//        callback(sum)
+//     }
+//    return sum
+
+// }
+
+// const sumPrint=(s)=>{
+//       console.log(s)
+// }
+
+// console.log(sumOfNNums(10,sumPrint))
+
+
+
+
